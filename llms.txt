@@ -1,0 +1,32 @@
+# Juzly Holdings
+> Dual-hub enterprise systems, business intelligence, digital marketing, corporate event architecture, and frontier expeditions.
+
+## Summary
+Juzly Holdings Pty Ltd is an operational parent firm directing institutional governance, integrated enterprise systems, high stakes stagecraft, and autonomous wilderness expeditions across international markets. Strategic advisory and executive governance are anchored in Australia, supported by specialized IT and operational delivery centers in Colombo, Sri Lanka.
+
+## Core Capabilities
+- Juzly Technologies: Full-lifecycle Odoo ERP architecture, multi-entity accounting, and supply chain automation.
+- Juzly Business Intelligence: Automated cloud ETL pipelines, predictive forecasting, and executive KPI decision cockpits.
+- Juzly Integrated Solutions: B2B pipeline generation, HubSpot CRM enterprise architecture, and conversion rate optimization.
+- Juzly Experiences: Mainstage live governance, corporate summit production, delegate badge tech, and cross-border vendor steering.
+- Juzly Holidays: Curated executive travel itineraries, corporate board retreats, and autonomous wilderness expeditions.
+
+## Key URLs
+- [Homepage](https://juzly.net/): Central corporate portal showcasing the dual-hub operating model and single counterparty governance.
+- [About Us](https://juzly.net/about.html): Operational holding structure, Australian advisory anchor, and executive FAQs.
+- [Brand Philosophy](https://juzly.net/brandjuzly.html): Core brand ethos, values, and single counterparty execution.
+- [Juzly Technologies](https://juzly.net/technologies.html): Enterprise Odoo ERP deployments, custom modules, and systems architecture.
+- [Juzly Business Intelligence](https://juzly.net/bi.html): Automated cloud ETL data pipelines, predictive revenue models, and executive cockpits.
+- [Juzly Integrated Solutions](https://juzly.net/digital.html): B2B lead acquisition, HubSpot CRM architecture, and closed-loop revenue attribution.
+- [Juzly Experiences](https://juzly.net/events.html): High-stakes event architecture, corporate summits, and experiential brand activations.
+- [Juzly Holidays](https://juzly.net/holidays.html): Curated executive expeditions, private corridor crossings, and wilderness logistics.
+- [Leadership Team](https://juzly.net/my-team.html): Executive leadership profiles, advisory bios, and delivery leads.
+- [The Sheriff Foundation](https://juzly.net/impact.html): Strategic venture philanthropy, digital literacy, and community infrastructure.
+- [ESG & Sustainability](https://juzly.net/esg.html): Odoo carbon accounting modules and sustainable supply chain decarbonization frameworks.
+- [Strategic Insights](https://juzly.net/insights.html): Operational frameworks, Odoo architecture teardowns, and supply chain analysis.
+- [Contact & Proposals](https://juzly.net/contact.html): Global communication channels, enterprise RFP submissions, and advisory bookings.
+- [Modern Slavery Statement](https://juzly.net/modernSlavery.html): Statutory disclosure statement detailing supply chain auditing and human rights compliance under Australian law.
+- [Privacy Policy](https://juzly.net/privacy.html): Data protection standards, international privacy compliance, and client consent policies.
+- [Terms of Service](https://juzly.net/terms.html): Master services agreement, single counterparty terms, and SLA warranty definitions.
+- [Sitemap](https://juzly.net/sitemap.html): Complete website directory and hierarchical index of all pages.
+

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strategic Insights & Industry Analysis | Juzly</title>
+  <meta name="description" content="Expert thought leadership, operational frameworks, and actionable case studies on ERP systems, modern supply chains, and digital strategy.">
+  <meta name="keywords" content="Supply chain insights, Odoo ERP guides, digital growth, B2B CRM strategy, Juzly Insights">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <link rel="canonical" href="https://juzly.net/insights.html">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Juzly">
+  <meta property="og:title" content="Strategic Insights & Industry Analysis | Juzly">
+  <meta property="og:description" content="Expert thought leadership, operational frameworks, and actionable case studies on ERP systems, modern supply chains, and digital strategy.">
+  <meta property="og:url" content="https://juzly.net/insights.html">
+  <meta property="og:image" content="https://juzly.net/images/hero-bg.jpg">
+  <meta property="og:locale" content="en_AU">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Strategic Insights & Industry Analysis | Juzly">
+  <meta name="twitter:description" content="Expert thought leadership, operational frameworks, and actionable case studies on ERP systems, modern supply chains, and digital strategy.">
+  <meta name="twitter:image" content="https://juzly.net/images/hero-bg.jpg">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "name": "Strategic Insights & Industry Analysis",
+          "url": "https://juzly.net/insights.html",
+          "description": "Expert thought leadership, operational frameworks, and actionable case studies on ERP systems and modern supply chains."
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://juzly.net/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Insights",
+              "item": "https://juzly.net/insights.html"
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+
+  <meta name="theme-color" content="#0a0e17">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Theme early init to prevent FOUC & early icon binding -->
+  <script>
+    (function() {
+      try {
+        const savedTheme = localStorage.getItem('juzly_theme') || 
+          (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        
+        const savedLang = localStorage.getItem('juzly_lang') || 'en';
+        document.documentElement.lang = savedLang;
+        if (savedLang === 'ar') document.documentElement.dir = 'rtl';
+
+        // Attach immediately as soon as DOM is ready, before deferred scripts run
+        document.addEventListener('DOMContentLoaded', function() {
+          const btn = document.getElementById('theme-toggle-btn');
+          if (btn) {
+            if (savedTheme === 'light') {
+              btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>';
+              btn.setAttribute('aria-label', 'Switch to Dark Mode');
+            }
+          }
+        });
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header id="site_header" class="site_header site-header">
+    <div class="nav_shell">
+      <a href="index.html" class="brand_mark">JUZLY<span>.</span></a>
+
+      <nav class="nav_cluster">
+        <a href="index.html" class="nav_direct_link">Home</a>
+        <a href="brandjuzly.html" class="nav_direct_link">Brand Philosophy</a>
+
+        <div class="menu_node">
+          <button type="button" class="menu_trigger" aria-haspopup="true" aria-expanded="false">
+            Business
+            <svg class="chevron_icon" width="10" height="6" viewBox="0 0 10 6" fill="none">
+              <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="dropdown_panel panel_compact">
+            <a href="technologies.html" class="dropdown_row">
+              <span class="row_title">Juzly Technologies</span>
+            </a>
+            <a href="bi.html" class="dropdown_row">
+              <span class="row_title">Juzly Business Intelligence</span>
+            </a>
+            <a href="digital.html" class="dropdown_row">
+              <span class="row_title">Juzly Integrated Solutions</span>
+            </a>
+            <a href="events.html" class="dropdown_row">
+              <span class="row_title">Juzly Experiences</span>
+            </a>
+            <a href="holidays.html" class="dropdown_row">
+              <span class="row_title">Juzly Holidays</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="menu_node">
+          <a href="about.html" class="menu_trigger" aria-haspopup="true" aria-expanded="false" id="trigger-about">
+            About Us
+            <svg class="chevron_icon" width="10" height="6" viewBox="0 0 10 6" fill="none">
+              <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <div class="dropdown_panel panel_compact" role="region" aria-labelledby="trigger-about">
+            <a href="about.html" class="dropdown_row">
+              <span class="row_title" data-i18n="nav_about">About Us</span>
+            </a>
+            <a href="my-team.html" class="dropdown_row">
+              <span class="row_title">My Team</span>
+            </a>
+            <a href="impact.html" class="dropdown_row">
+              <span class="row_title">Social Impact</span>
+            </a>
+            <a href="esg.html" class="dropdown_row">
+              <span class="row_title">ESG and Sustainability</span>
+            </a>
+            <a href="modernSlavery.html" class="dropdown_row">
+              <span class="row_title">Modern Slavery Statement</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="contact.html" class="nav_direct_link">Contact</a>
+      </nav>
+
+      <div class="nav_action_slot">
+        <a href="contact.html" class="action_button">Request Consultation</a>
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="badge reveal">Executive Thought Leadership</span>
+          <h1 class="reveal reveal-delay-1" data-i18n="insights_h1">Strategic Insights and Market Analysis</h1>
+          <p class="lead reveal reveal-delay-2">
+            Expert operational frameworks, architectural guides, and actionable cross border case studies authored by Juzly partners and technical directors.
+          </p>
+
+          <!-- Capgemini-Style Hero Visual Command Showcase -->
+          <div class="hero-showcase-container reveal reveal-delay-4">
+            <div class="hero-showcase-frame">
+              <div class="hero-showcase-badge-bar">
+                <div class="hero-showcase-status">
+                  <span class="pulse-dot"></span>
+                  <span>Executive Knowledge Engine &middot; Strategic Intelligence</span>
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;">
+                  Enterprise Research Directorate &middot; Sydney &amp; Colombo
+                </div>
+              </div>
+              <img src="images/insights-hero-showcase.jpg" alt="Executive Strategic Insights and Thought Leadership Showcase - Juzly" width="1376" height="768" loading="eager">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coming Soon Editorial Banner (CMS Ready) -->
+    <section class="section" style="padding-block: 2rem;">
+      <div class="container">
+        <div class="glass-card editorial-banner reveal" style="text-align: center !important; padding: clamp(2.5rem, 5vw, 4rem) 2rem; border-color: var(--accent-gold); background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(30,203,225,0.08));">
+          <span class="badge" style="background: rgba(201,168,76,0.2);">Editorial Hub Launching Soon</span>
+          <h2 style="margin-block: 1rem; text-align: center !important; margin-inline: auto !important;" data-i18n="insights_coming_soon">Coming Soon: Knowledge Hub and Editorial Engine</h2>
+          <p style="max-width: 680px; margin-inline: auto !important; text-align: center !important;" data-i18n="insights_cms_ready">
+            We are preparing our full library of whitepapers, Odoo deployment blueprints, and supply chain market analysis drawn from live client engagements. Register below to receive our inaugural executive briefs.
+          </p>
+          
+          <form style="max-width: 500px; margin: 2rem auto 0; display: flex; gap: 0.75rem; flex-wrap: wrap;" onsubmit="event.preventDefault(); alert('Thank you for subscribing to Juzly Insights.');">
+            <input type="email" id="newsletter-email" name="newsletter_email" class="form-input" placeholder="Enter corporate email..." aria-label="Corporate email address" required style="flex: 1; min-width: 240px;">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Structured Topics Categories (Pre-configured for CMS Data Binding) -->
+    <section class="section" id="categories" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="badge badge-teal">Topic Architecture</span>
+          <h2>Focus Areas and Research Streams</h2>
+          <p>Our upcoming analytical publications are categorised across our four core product offerings.</p>
+        </div>
+
+        <div class="bento-grid bento-grid-4">
+          <!-- Category 1: Enterprise Solutions (Odoo) -->
+          <div class="glass-card reveal reveal-delay-1" style="text-align: left;">
+            <div class="cg-card-media">
+              <img src="images/insights-stream-erp.jpg" alt="Enterprise Systems and Odoo Architecture" width="1200" height="760" loading="lazy">
+              <div class="card-icon-overlay" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+            </div>
+            <span class="cg-story-tag">Enterprise Architecture</span>
+            <h3 data-i18n="insights_h2_erp" style="text-align: left; margin-inline: 0;">Enterprise Systems and Odoo</h3>
+            <p style="text-align: left; margin-inline: 0;">Architectural teardowns of multi entity Odoo deployments, custom API integration patterns, and database performance tuning.</p>
+            <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.85rem; text-align: left;">Upcoming: 4 Articles and Whitepapers</div>
+          </div>
+
+          <!-- Category 2: Business Intelligence and Analytics -->
+          <div class="glass-card reveal reveal-delay-2" style="text-align: left;">
+            <div class="cg-card-media">
+              <img src="images/insights-stream-bi.jpg" alt="Business Intelligence and Analytics Frameworks" width="1200" height="760" loading="lazy">
+              <div class="card-icon-overlay" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+            </div>
+            <span class="cg-story-tag">Data Intelligence</span>
+            <h3 data-i18n="bi_h1" style="text-align: left; margin-inline: 0;">Business Intelligence and Analytics</h3>
+            <p style="text-align: left; margin-inline: 0;">Automated cloud ETL data pipelines, predictive forecasting models, and executive KPI telemetry dashboards.</p>
+            <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.85rem; text-align: left;">Upcoming: 3 Articles and Frameworks</div>
+          </div>
+
+          <!-- Category 3: Digital Growth and CRM -->
+          <div class="glass-card reveal reveal-delay-3" style="text-align: left;">
+            <div class="cg-card-media">
+              <img src="images/insights-stream-growth.jpg" alt="Digital Growth and RevOps Blueprints" width="1200" height="760" loading="lazy">
+              <div class="card-icon-overlay" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"></path></svg>
+              </div>
+            </div>
+            <span class="cg-story-tag">Growth Telemetry</span>
+            <h3 data-i18n="insights_h2_growth" style="text-align: left; margin-inline: 0;">Digital Growth and CRM</h3>
+            <p style="text-align: left; margin-inline: 0;">RevOps pipeline optimisation, high value B2B conversion attribution, and enterprise HubSpot automation blueprints.</p>
+            <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.85rem; text-align: left;">Upcoming: 5 Articles and Templates</div>
+          </div>
+
+          <!-- Category 4: Corporate Event Management -->
+          <div class="glass-card reveal reveal-delay-4" style="text-align: left;">
+            <div class="cg-card-media">
+              <img src="images/insights-stream-events.jpg" alt="Corporate Event Management Playbooks" width="1200" height="760" loading="lazy">
+              <div class="card-icon-overlay" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+            </div>
+            <span class="cg-story-tag">Event Production</span>
+            <h3 data-i18n="pillar_events_title" style="text-align: left; margin-inline: 0;">Corporate Event Management</h3>
+            <p style="text-align: left; margin-inline: 0;">Executive summit production playbooks, hybrid delegate engagement metrics, and cross border vendor governance.</p>
+            <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.85rem; text-align: left;">Upcoming: 3 Articles and Guides</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Conversion CTA -->
+  <section class="section" id="intake-terminal" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="glass-card reveal" style="max-width: 860px; margin: 0 auto; text-align: center; padding: clamp(2.5rem, 5vw, 4rem) 2rem; border-color: var(--accent-gold); background: linear-gradient(135deg, rgba(201,168,76,0.08), rgba(30,203,225,0.05));">
+        <span class="badge" style="background: rgba(201,168,76,0.2);">From Research to Resolution</span>
+        <h2 style="margin-block: 1rem;">If one of these research areas maps directly to a decision you are facing today, the fastest path forward is a scoped conversation.</h2>
+        <p style="max-width: 640px; margin-inline: auto; color: var(--text-muted); line-height: 1.7; margin-bottom: 2rem;">
+          Our upcoming publications are written from live client engagements, not theoretical frameworks. If you are currently navigating an ERP implementation decision, a BI infrastructure overhaul, a revenue attribution challenge, or a corporate event mandate, speak directly with the advisory team that will be authoring those pieces. Every conversation is held in strict confidence.
+        </p>
+        <a href="contact.html?service=insights" class="btn btn-primary" style="padding: 14px 36px; font-size: 1rem;">
+          <span>Request a Strategy Conversation</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer id="site-footer" class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand_mark">JUZLY<span>.</span></a>
+          <p data-i18n="tagline">Juzly Holdings is an operational parent firm directing institutional governance, integrated enterprise systems, high stakes stagecraft, and autonomous wilderness expeditions across international markets.</p>
+          <div style="margin-top: 1.25rem;">
+            <span class="dual-hub-tag">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              <span data-i18n="dual_hub_hq">Australia (HQ) | Sri Lanka</span>
+            </span>
+          </div>
+          <div class="footer-contact-info" style="margin-top: 1.25rem;">
+            <p class="footer-company-name">Juzly Holdings Pty Ltd.</p>
+            <p class="footer-email">
+              <a href="mailto:hello@juzly.net">hello@juzly.net</a>
+            </p>
+          </div>
+          <div class="footer-social-links" style="margin-top: 1.25rem; display: flex; align-items: center; gap: 0.75rem;">
+            <a href="https://www.linkedin.com/company/juzly-holdings/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn" title="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.778-.773 1.778-1.729V1.73C24 .774 23.205 0 22.225 0z"/>
+              </svg>
+            </a>
+            <a href="https://www.x.com/juzly" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Twitter / X" title="Twitter / X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-heading" data-i18n="footer_discover">Discover</div>
+          <ul class="footer-links">
+            <li class="footer-link-item"><a href="about.html" data-i18n="nav_about">About Us</a></li>
+            <li class="footer-link-item"><a href="brandjuzly.html">Brand Philosophy</a></li>
+            <li class="footer-link-item"><a href="impact.html" data-i18n="footer_social_impact">Social Impact</a></li>
+            <li class="footer-link-item"><a href="esg.html" data-i18n="nav_esg">ESG & Sustainability</a></li>
+            <li class="footer-link-item"><a href="insights.html" data-i18n="nav_insights">Insights</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading" data-i18n="footer_business_operations">Business Operations</div>
+          <ul class="footer-links">
+            <li class="footer-link-item"><a href="technologies.html" data-i18n="op_technologies">Juzly Technologies</a></li>
+            <li class="footer-link-item"><a href="bi.html" data-i18n="op_bi">Juzly Business Intelligence</a></li>
+            <li class="footer-link-item"><a href="digital.html" data-i18n="op_solutions">Juzly Integrated Solutions</a></li>
+            <li class="footer-link-item"><a href="events.html" data-i18n="op_experiences">Juzly Experiences</a></li>
+            <li class="footer-link-item"><a href="holidays.html" data-i18n="op_holidays">Juzly Holidays</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright-statement">&copy; 2026 <span class="footer-endorsement">Juzly Holdings Pty Ltd.</span> <span data-i18n="rights_reserved">All rights reserved.</span></div>
+        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+          <a href="modernSlavery.html" data-i18n="footer_modern_slavery">Modern Slavery</a>
+          <a href="privacy.html" data-i18n="privacy_policy">Privacy Policy</a>
+          <a href="terms.html" data-i18n="terms_service">Terms of Service</a>
+          <a href="sitemap.html" data-i18n="sitemap">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core UI and Theme First -->
+  <script src="nav.js"></script>
+  <script src="animations.js"></script>
+
+  <!-- Internationalization (Non-blocking) -->
+  <script src="i18n.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#20C063" />
+      <stop offset="100%" stop-color="#169E4E" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#emeraldGrad)" />
+  <!-- Torii Gate Silhouette in Deep Forest #004F32 -->
+  <!-- Upper Curved Kasagi Beam -->
+  <path d="M10 18 C22 16.5, 42 16.5, 54 18 L52.5 21.5 C42 20.2, 22 20.2, 11.5 21.5 Z" fill="#004F32"/>
+  <!-- Second Straight Shimaki Beam -->
+  <rect x="14" y="24" width="36" height="3.5" rx="1.5" fill="#004F32"/>
+  <!-- Pillars (Hashira) -->
+  <rect x="20" y="21" width="4.5" height="27" rx="1.5" fill="#004F32"/>
+  <rect x="39.5" y="21" width="4.5" height="27" rx="1.5" fill="#004F32"/>
+</svg>

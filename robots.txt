@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://juzly.net/sitemap.xml
+Sitemap: https://juzly.net/sitemap.txt
